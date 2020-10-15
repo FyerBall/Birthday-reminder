@@ -3,11 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+.title {
+  text-transform: capitalize;
+  margin-top: 10px;
+}
 .users {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 3rem auto;
+  gap: 1rem;
+  margin: 2rem auto;
 }
 .person__info {
   text-align: left;
@@ -19,12 +23,16 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding: 2rem;
+  padding: 1rem;
 }
 .users img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+.users p {
+  margin-top: 7px;
+  color: #3434;
 }
 
 .btn {
@@ -34,11 +42,14 @@
   text-transform: capitalize;
   font-size: 1rem;
   cursor: pointer;
-  background: lightcoral;
+  background: #2d6187;
   transition: all 0.3s linear;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: #effad3;
 }
 
 .btn:hover {
-  background: green;
+  background: #bb2205;
   color: #fff;
 }

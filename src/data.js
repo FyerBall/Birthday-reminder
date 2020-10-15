@@ -33,4 +33,11 @@ export const data = [
     img:
       'https://www.fakepersongenerator.com/Face/female/female1022447671997.jpg',
   },
+  {
+    id: 6,
+    name: 'Thomas L Bush',
+    img:
+      'https://www.fakepersongenerator.com/Face/male/male20171084084142853.jpg',
+    age: 46,
+  },
 ];

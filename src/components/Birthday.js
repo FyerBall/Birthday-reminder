@@ -9,10 +9,10 @@ function Birthday() {
   };
   return (
     <div>
-      <h1>
+      <h1 className='title'>
         {people.length > 0
-          ? `${people.length} birthday`
-          : 'No one on your list'}
+          ? `${people.length} birthdays today`
+          : 'List is empty'}
       </h1>
       <ul className='users'>
         {people.map((person) => {
