@@ -2,4 +2,4 @@ This project created using useState hook
 
 ## You can see it in action here
 
-Open [http://localhost:3000](http://localhost:3000)
+[Open](https://jovial-jones-e61166.netlify.app/)
